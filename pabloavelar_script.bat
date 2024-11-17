@@ -28,7 +28,7 @@ START "" "%classroom%"
 :: 5. Pedir al usuario si quiere hacer una nueva tarea, si no quiere ahí termina el script.
 ECHO Quieres hacer una nueva tarea?
 ECHO 1. SI
-ECHO 2. NO
+ECHO 0. NO
 
 
 SET /P option=""
